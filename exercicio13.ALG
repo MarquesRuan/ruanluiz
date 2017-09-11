@@ -1,16 +1,16 @@
-Algoritmo "semnome"
-// Disciplina  :  [Linguagem e Lógica de Programação]
+Algoritmo "VotaÃ§Ã£o"
+// Disciplina  :  [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 10/09/2017
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    cand1,cand2,cand3,cand4,op,nulo,branco,contador: inteiro
    perc1,perc2,perc3,perc4: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    op <- 1
    enquanto op <> 0 faca
       escreval("Digite um Candidato: 1,2,3,4 ou 5(Voto Nulo) e 6(Voto em Branco)")
@@ -36,7 +36,7 @@ Inicio
          branco <- branco + 1
          contador <- contador + 1
       outrocaso
-         escreval("Digite uma opção Válida ou 0 (para sair)")
+         escreval("Digite uma opÃ§Ã£o VÃ¡lida ou 0 (para sair)")
          leia(op)
       fimescolha
    fimenquanto
